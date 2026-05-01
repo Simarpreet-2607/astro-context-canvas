@@ -43,7 +43,7 @@ export const Screen2Chat = () => {
           <span className="text-[14px]">📋</span>
           <span className="text-[12.5px] text-astro-ink flex-1 truncate font-medium">
             <span className="text-astro-mute font-normal">Context: </span>
-            Job switch · Relationship · Mother's health
+            Job switch · Relationship · Mother's health — <span className="text-astro-green font-semibold">DOB & Kundli loaded ✓</span>
           </span>
           {expanded ? (
             <ChevronUp size={16} className="text-astro-ink-soft" />
@@ -103,18 +103,9 @@ export const Screen2Chat = () => {
         <div className="flex justify-start">
           <div className="max-w-[78%] bg-white rounded-2xl rounded-tl-md px-3.5 py-2.5 shadow-soft border border-border/60">
             <p className="text-[13.5px] text-astro-ink leading-relaxed">
-              Looking at your chart, Rahu is in your 10th house — this is causing a delay, not denial. Share your DOB once more for confirmation.
+              Looking at your chart, Rahu is in your 10th house — this is causing a delay, not a denial. Expect movement post May 15. Focus on Mars remedies this week.
             </p>
             <span className="text-[10px] text-astro-mute block mt-1">10:25 AM</span>
-          </div>
-        </div>
-
-        <div className="flex justify-end">
-          <div className="max-w-[78%] bg-astro-yellow rounded-2xl rounded-tr-md px-3.5 py-2.5 shadow-soft">
-            <p className="text-[13.5px] text-astro-ink leading-relaxed">
-              14 Nov 1996, 9:42 PM, Pune
-            </p>
-            <span className="text-[10px] text-astro-ink/60 block mt-1 text-right">10:26 AM</span>
           </div>
         </div>
       </div>
