@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +59,24 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        astro: {
+          yellow: "hsl(var(--astro-yellow))",
+          "yellow-soft": "hsl(var(--astro-yellow-soft))",
+          beige: "hsl(var(--astro-beige))",
+          "beige-warm": "hsl(var(--astro-beige-warm))",
+          ink: "hsl(var(--astro-ink))",
+          "ink-soft": "hsl(var(--astro-ink-soft))",
+          mute: "hsl(var(--astro-mute))",
+          green: "hsl(var(--astro-green))",
+        },
+        pill: {
+          "orange-bg": "hsl(var(--pill-orange-bg))",
+          "orange-fg": "hsl(var(--pill-orange-fg))",
+          "pink-bg": "hsl(var(--pill-pink-bg))",
+          "pink-fg": "hsl(var(--pill-pink-fg))",
+          "grey-bg": "hsl(var(--pill-grey-bg))",
+          "grey-fg": "hsl(var(--pill-grey-fg))",
         },
       },
       borderRadius: {
