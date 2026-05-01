@@ -79,7 +79,6 @@ export default {
           "grey-fg": "hsl(var(--pill-grey-fg))",
         },
       },
-      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
